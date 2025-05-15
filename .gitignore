@@ -1,0 +1,6 @@
+/kafka-secret-operator
+/.direnv/
+/.envrc
+/result
+/secret-operator
+/tmp/
