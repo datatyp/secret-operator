@@ -16,7 +16,7 @@ import (
 )
 
 var (
-	secretNamePattern = regexp.MustCompile(`^([a-z0-9]+)--([a-z0-9-]+)$`)
+	secretNamePattern = regexp.MustCompile(`^([a-z0-9-]+)--([a-z0-9-]+)$`)
 )
 
 type SecretReconciler struct {
